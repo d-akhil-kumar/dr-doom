@@ -7,7 +7,7 @@ text  = (
 )
 
 
-ids = tokenizer.encode(text, allowed_special={"|<endoftext>|"})
+ids = tokenizer.encode(text, allowed_special={"<|endoftext|>"})
 
 print("Encoded IDs:", ids)
 
